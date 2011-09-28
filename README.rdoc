@@ -1,7 +1,10 @@
 
-= a test rails app for that issue
+= a test rails app for a rufus-scheduler issue
 
 http://groups.google.com/group/rufus-ruby/browse_thread/thread/f13a10007f3e46fd
 
 http://groups.google.com/group/rufus-ruby/msg/5f9505938d2a1c88
+
+
+THIS IS JUST A DUMB PROJECT, do not lose your time watching it.
 

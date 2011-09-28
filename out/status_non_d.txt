@@ -1,0 +1,47 @@
+
+jmettraux@tachibana ~/james_lopez (master) 円 curl http://localhost:3000/status/
+
+--------------------------------------------------------------------------------
+
+#<Thread:0x8368c08 sleep>
+
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.4/lib/rack/handler/mongrel.rb:38:in `run'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.4/lib/rack/server.rb:217:in `start'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/commands/server.rb:65:in `start'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/commands.rb:30:in `block in <top (required)>'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/commands.rb:27:in `tap'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/commands.rb:27:in `<top (required)>'
+script/rails:6:in `require'
+script/rails:6:in `<main>'
+--------------------------------------------------------------------------------
+
+#<Thread:0x8ce7af4 sleep>
+
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/rufus-scheduler-2.0.10/lib/rufus/sc/scheduler.rb:366:in `block (2 levels) in start'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/rufus-scheduler-2.0.10/lib/rufus/sc/scheduler.rb:365:in `loop'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/rufus-scheduler-2.0.10/lib/rufus/sc/scheduler.rb:365:in `block in start'
+--------------------------------------------------------------------------------
+
+#<Thread:0x9705874 sleep>
+
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:278:in `block in run'
+--------------------------------------------------------------------------------
+
+#<Thread:0x974c7ec run>
+
+/home/jmettraux/james_lopez/app/controllers/status_controller.rb:13:in `block in index'
+/home/jmettraux/james_lopez/app/controllers/status_controller.rb:8:in `each'
+/home/jmettraux/james_lopez/app/controllers/status_controller.rb:8:in `index'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/abstract_controller/base.rb:150:in `process_action'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/callbacks.rb:436:in `_run__634400965__process_action__621480893__callbacks'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/jmettraux/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+--------------------------------------------------------------------------------
+
