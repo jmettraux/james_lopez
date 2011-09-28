@@ -1,0 +1,7 @@
+
+= a test rails app for that issue
+
+http://groups.google.com/group/rufus-ruby/browse_thread/thread/f13a10007f3e46fd
+
+http://groups.google.com/group/rufus-ruby/msg/5f9505938d2a1c88
+
